@@ -1,0 +1,127 @@
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+  background-color: #fff;
+  height: fit-content;
+  padding-bottom: 0rem;
+  margin-top: 2rem;
+  width: 100vw;
+  position: relative; 
+  z-index: 99;
+  font-family: 'Coming Soon', cursive;
+}
+.nav-links{
+    display: flex;
+    gap: 20rem;
+    list-style: none;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    top: 0;
+    
+    transition: right 0.3s ease;
+    
+    }
+
+    ul button{
+      display: none;
+    }
+     li:hover{
+        transform: scale(1.2);
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+        text-shadow: 2px 2px 3px #D8D9DA;
+    }
+
+    .nav-toggle {
+        display: none; /* Oculta el ícono del menú hamburguesa en pantallas grandes */
+      }
+      .home-link{
+        color: #FF0303;
+      }
+    @media (max-width: 768px) {
+        
+        ul button{
+          display: block;
+        }
+        .nav-container {
+          flex-direction: column;
+          align-items:end;
+         justify-content: flex-end;
+         margin-right: 2rem;
+        }
+      
+        .nav-toggle {
+          display: block;
+          cursor: pointer;
+          margin-top: 0;
+        }
+      
+        .nav-links {
+          display: none;
+          flex-direction: column;
+          gap: 1rem;
+          padding:  0;
+          position: absolute;
+          top: 0; 
+          right: 0;
+          transform: translateY(-100%);
+          
+          background-color: #fff;
+          width: 160vw;
+          box-shadow: 4px 4px 4px #D8D9DA;
+          transition: transform 0.5s ease;
+          
+        }
+      
+        .nav-links.open {
+          display: flex;
+          transform: translateY(-100%);    
+          width: 20%;
+            
+        }
+      
+      
+        li {
+          transform: none;
+        }
+      
+        a {
+          font-size: 14px;
+        }
+      }
+
+      .custom-cursor {
+        position: fixed;
+        width: 8px;
+        height: 8px;
+        border: 2px solid #FF0303;
+        border-radius: 50%;
+        /* background-color: transparent; */
+        pointer-events: none;
+        animation: pulse 0.5s infinite alternate;
+       
+      }
+      
+      .custom-cursor.active {
+        transform: scale(1.5);
+        
+      }
+      @keyframes pulse {
+        to {
+          transform: scale(1.5);
+          opacity: 0.7; /* Reduzca la opacidad para simular el brillo */
+          filter: brightness(1.5);
+        }
+      }
+      body {
+        cursor: none;
+      }
+      
+      
+      

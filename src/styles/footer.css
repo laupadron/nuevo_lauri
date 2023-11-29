@@ -1,0 +1,22 @@
+
+.end{
+    display: flex;
+    flex-direction: column;
+    
+}
+.end a{
+    color: #FF0303;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.end h2{
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 0 0;
+}
+.end p{
+    margin: 0 0 0 0;
+}
+ .pom:hover{
+    transform: scale(1.2);
+ }

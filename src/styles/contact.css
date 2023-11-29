@@ -1,0 +1,68 @@
+.container-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Agrega margen automático para centrar el grid */
+    max-width: 800px;
+    margin-top: 1rem;
+    gap: 3rem;
+}
+.mail{
+  display: flex;  
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.mail h2{
+    font-size: 15px;
+    font-family: 'Coming Soon', cursive;
+}
+.mail i{
+    color: #FF0303;
+    font-size: 20px;
+}
+.icons{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.icons i{
+    color: #FF0303;
+    font-size: 20px;
+}
+/* .fa-brands.fa-whatsapp{
+    color: #54E346;
+} */
+.icons a:hover{
+    transform: scale(1.2);
+}
+.contact{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.contact h2{
+    font-size: 20px;
+    font-family: 'Coming Soon', cursive; 
+    text-align: center;
+}
+.contact i{
+    color: #FF0303;
+    font-size: 20px;
+    animation: heartbeat 1s infinite ease-in-out;
+}
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
