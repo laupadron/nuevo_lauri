@@ -1,0 +1,35 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.fa-plus{
+    color: #FF0303;
+    margin-top: 1rem;
+    margin-left: 9rem;
+}
+.buttons button{
+    margin-bottom: 5px;
+    margin-top: 2rem;
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7e1e1;
+    font-family: 'Coming Soon', cursive;
+    transition: transform 0.5s ease;
+}
+.buttons button:hover {
+    background-color: rgba(128, 128, 128, 0.5); /* Gris semi-transparente al pasar el ratón sobre el botón */
+}
+.fa-plus:hover{
+    transform: scale(1.5);
+
+
+}

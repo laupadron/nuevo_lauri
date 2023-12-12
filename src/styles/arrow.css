@@ -1,0 +1,33 @@
+/* Arrow.css */
+.slick-arrow {
+    background-color: #ffffff; 
+    color: #FF0303; 
+    font-size: 38px; 
+    
+    width: 40px;
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+   /* .slick-prev {
+    left: 330px; 
+    top: 250px;
+  }
+  
+  .slick-next {
+    right: 350px; 
+    top: 250px;
+  }  */
+  
+  .slick-prev {
+    left: 10px;
+    top: 10px;
+  }
+  
+  .slick-next {
+    right: 10px;
+    top: 10px;
+  }

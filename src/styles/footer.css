@@ -1,7 +1,10 @@
 
+
 .end{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     
 }
 .end a{
@@ -19,4 +22,24 @@
 }
  .pom:hover{
     transform: scale(1.2);
+ }
+ .end button{
+    margin-bottom: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7e1e1;
+    font-family: 'Coming Soon', cursive;
+ }
+ .end button:hover{
+    transform: scale(1.2);
+}
+ .end button i{
+    margin-top: 5px;
+    color:#FF0303 ;
  }

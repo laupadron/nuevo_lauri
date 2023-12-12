@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import '../styles/nav.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import 'font-awesome/css/font-awesome.min.css';
 
 
@@ -8,7 +8,7 @@ const Nav = () => {
  
   const [cursorActive, setCursorActive] = useState(false);
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
-
+  const location = useLocation();
     const [isMenuOpen, setMenuOpen] = useState(false); 
     
 
@@ -72,14 +72,14 @@ menu
   X
 </button>
           <li className="links ">
-            <Link to="/" onClick={closeMenu} className="home-link" >Home</Link>
+            <Link to="/" onClick={closeMenu} className={`home-link ${location.pathname === '/' ? 'active' : ''}`} >Home</Link>
           </li>
           
           <li>
-            <Link to="/projects" onClick={closeMenu} >Proyectos</Link>
+            <Link to="/projects" onClick={closeMenu} className={`project-link ${location.pathname === '/projects' ? 'active' : ''}`}>Proyectos</Link>
           </li>
           <li>
-            <Link to="/skills" onClick={closeMenu}>Skills</Link>
+            <Link to="/skills" onClick={closeMenu} className={`skills-link ${location.pathname === '/skills' ? 'active' : ''}`}>Sobre mí / Skills</Link>
           </li>
          
           

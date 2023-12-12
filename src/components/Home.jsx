@@ -40,7 +40,7 @@ const Home = () => {
         </div>
         <div className="text">
             <div className="container-text">
-                <h2 style={{fontFamily:"'Coming Soon', cursive"}}>{language === 'es' ? '¡Hola!, soy' : 'Hi, I´m'}</h2>
+                <h2 style={{fontFamily:"'Coming Soon', cursive"}}>{language === 'es' ? '¡Hola!, soy' : 'Hi!, I´m'}</h2>
                 <h1>LAURA PADRÓN</h1>
                 <h2>{language === 'es' ? 'Desarrolladora Web' : 'Web Developer'} <br />{language === 'es' ? 'Analista de datos' : 'Data Analyst'}</h2>
             </div>

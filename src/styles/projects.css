@@ -1,0 +1,85 @@
+.container-slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.container-slider h2{
+    text-align: center;
+}
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.slider h3 {
+    font-family: 'Coming Soon', cursive;
+}
+
+.slider img {
+    width: 500px;
+    height: 250px;
+    align-self: center;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+.slider .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Agrega position: relative aquí */
+}
+ .link:hover{
+    transform: scale(1.2);
+}
+.description-overlay {
+    position: absolute;
+    top: 50%; /* Centra verticalmente respecto al contenedor padre */
+    left: 50%; /* Centra horizontalmente respecto al contenedor padre */
+    transform: translate(-50%, -50%); /* Centra completamente el elemento */
+    width: 500px;
+    height: 250px;
+    align-self: center;
+    /* margin: 10px; */
+    background-color: rgba(192, 166, 166, 0.9);;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+/* Agrega esto a tu archivo de estilos CSS */
+.slider.hovered .description-overlay {
+    display: block; /* o cualquier estilo que desees */
+  }
+  
+.slider:hover .description-overlay {
+    opacity: 1;
+}
+.description-overlay p{
+    color: black;
+    font-family: 'Coming Soon', cursive;
+    font-weight: bold;
+    padding: 0 5px 0 5px;
+}
+.nav-container{
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px){
+    h3 .link{
+        text-align: center;
+    }
+    .slider img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
