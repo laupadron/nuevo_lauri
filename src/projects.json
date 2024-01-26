@@ -2,31 +2,31 @@
     "projectos": [
       {
         "title":"E-commerce Vanilla",
-        "link":"http://ecommercelaura.netlify.app/#",
+        "link":"https://goo.su/ER9HwA",
         "image": "ecommerVanillaJS.png",
         "description":"Realizado en JS VANILLA y Css. Trabajo final de módulo Fundamentos de la programación. Portada de e-commerce con carrito de compras y suma de total de productos JS puro"
       },
       {
         "title":"App-Weather",
-        "link":"https://laupadronweather.netlify.app/",
+        "link":"https://goo.su/ww5L0wU",
         "image": "APPWEATHER.png",
         "description":"Realizado en JS, React y Css con uso de Api. Aplicación que brinda datos del clima en lugar de ubicación del usuario. Agregado de hora local actualizada."
       },
       {
         "title":"Rick and Morty",
-        "link":"https://rickandmortyteam.netlify.app/",
+        "link":"https://goo.su/SRdSwpA",
         "image": "RICKANDMORTY.png",
         "description":"Realizado en Js,React, Css y consumo de Api. Trabajo en equipo colaborativo, con efectos en Css. Tiene el plus de buscador por Id y paginación web."
       },
       {
         "title":"Pokedex",
-        "link":"https://pokedexlaupadron.netlify.app/",
+        "link":"https://goo.su/uXCy",
         "image": "POKEDEX.png",
         "description":"Realizado en Js,React, Css y consumo de Api. Implementación de LottieFiles para animaciones Web. Posee rutas protegidas, filtrado con botón tipo switch."
       },
       {
         "title":"E-commerce React",
-        "link":"https://ecommerce-api-q8r7.onrender.com/api/v1/docs/",
+        "link":"https://goo.su/iDJ1",
         "image": "ecommerceREACT.png",
         "description":"Realizado en Js,React, Css y consumo de Api. Trabajo final de módulo Desarrollo Front End. Uso de Bootstrap, rutas protegidas, filtrado por precio y/o tipo de producto. Slice de imágenes del producto. Filtrado de productos similares al elegido y carrito de compras"
       },

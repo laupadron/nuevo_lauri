@@ -66,7 +66,8 @@
     color: black;
     font-family: 'Coming Soon', cursive;
     font-weight: bold;
-    padding: 0 5px 0 5px;
+    padding: 20px 5px 0 5px;
+    margin-top: 60px;
 }
 .nav-container{
     margin-top: 2rem;
