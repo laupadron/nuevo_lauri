@@ -62,7 +62,7 @@ const Nav = () => {
 
        
       <div className={`nav-toggle ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
-      <span className="material-symbols-outlined">
+      <span className="material-symbols-outlined" style={{color:'#FF0303'}}>
 menu
 </span>
 

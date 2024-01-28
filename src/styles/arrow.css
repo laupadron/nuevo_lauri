@@ -1,33 +1,46 @@
-/* Arrow.css */
-.slick-arrow {
-    background-color: #ffffff; 
-    color: #FF0303; 
-    font-size: 38px; 
-    
-    width: 40px;
-    height: 40px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
+
+
+  /* Añade estas reglas a tu archivo de estilos CSS */
+.slick-prev,
+.slick-next {
+  background-color: #ffffff;
+  color: #FF0303;
+  font-size: 38px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1000; /* Ajusta según sea necesario */
   
-   /* .slick-prev {
-    left: 330px; 
-    top: 250px;
-  }
-  
-  .slick-next {
-    right: 350px; 
-    top: 250px;
-  }  */
-  
+}
+
+
+.slick-prev {
+  left: 300px;
+  top: 60%; /* Centra verticalmente */
+  transform: translateY(-50%); /* Ajusta completamente verticalmente */
+}
+
+.slick-next {
+  right: 320px;
+  top: 60%; /* Centra verticalmente */
+  transform: translateY(-50%); /* Ajusta completamente verticalmente */
+}
+@media screen and (max-width: 768px) {
   .slick-prev {
-    left: 10px;
-    top: 10px;
+    left: 10px;  /* Ajusta según sea necesario */
+    right: auto; /* Reinicia la posición right a auto */
+    top:8%
   }
-  
+
   .slick-next {
-    right: 10px;
-    top: 10px;
+    right: 10px; /* Ajusta según sea necesario */
+    left: auto; /* Reinicia la posición left a auto */
+    top:8%;
   }
+}
+
+
+

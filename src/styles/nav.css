@@ -86,11 +86,21 @@
         ul button{
           display: block;
         }
+        .home-container{
+          height: 310px;
+        }
         .nav-container {
           flex-direction: column;
           align-items:end;
          justify-content: flex-end;
          margin-right: 2rem;
+         margin-top: 0;
+         height: 100px;
+         padding-bottom: 1rem;
+        }
+        nav.nav-container{
+          padding-bottom: 1rem;
+          margin-top: 0;
         }
       
         .nav-toggle {

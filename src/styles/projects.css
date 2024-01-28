@@ -17,10 +17,11 @@
 
 .slider h3 {
     font-family: 'Coming Soon', cursive;
+    margin: 0;
 }
 
 .slider img {
-    width: 500px;
+    /* width: 500px; */
     height: 250px;
     align-self: center;
     margin: 10px;
@@ -72,15 +73,28 @@
 .nav-container{
     margin-top: 2rem;
 }
+.ver-boton{
+width: 80px;
+height: 40px;
+border-radius: 1rem;
+border:none;
+
+}
+.ver-boton:hover{
+    transform: scale(1.2);
+}
+
+
 
 @media (max-width: 768px){
     h3 .link{
         text-align: center;
     }
     .slider img {
-        width: 150px;
+        width:150px;
         height: 150px;
     }
+   
 }
 
 

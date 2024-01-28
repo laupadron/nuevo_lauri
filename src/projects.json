@@ -2,73 +2,73 @@
     "projectos": [
       {
         "title":"E-commerce Vanilla",
-        "link":"https://goo.su/ER9HwA",
+        "link":"http://bit.ly/3vV59lK",
         "image": "ecommerVanillaJS.png",
         "description":"Realizado en JS VANILLA y Css. Trabajo final de módulo Fundamentos de la programación. Portada de e-commerce con carrito de compras y suma de total de productos JS puro"
       },
       {
         "title":"App-Weather",
-        "link":"https://goo.su/ww5L0wU",
+        "link":"https://bit.ly/47Nn4YR",
         "image": "APPWEATHER.png",
         "description":"Realizado en JS, React y Css con uso de Api. Aplicación que brinda datos del clima en lugar de ubicación del usuario. Agregado de hora local actualizada."
       },
       {
         "title":"Rick and Morty",
-        "link":"https://goo.su/SRdSwpA",
+        "link":"https://bit.ly/3vTi1Zu",
         "image": "RICKANDMORTY.png",
         "description":"Realizado en Js,React, Css y consumo de Api. Trabajo en equipo colaborativo, con efectos en Css. Tiene el plus de buscador por Id y paginación web."
       },
       {
         "title":"Pokedex",
-        "link":"https://goo.su/uXCy",
+        "link":"https://bit.ly/48RCQmA",
         "image": "POKEDEX.png",
         "description":"Realizado en Js,React, Css y consumo de Api. Implementación de LottieFiles para animaciones Web. Posee rutas protegidas, filtrado con botón tipo switch."
       },
       {
         "title":"E-commerce React",
-        "link":"https://goo.su/iDJ1",
+        "link":"https://bit.ly/48TtdEe",
         "image": "ecommerceREACT.png",
         "description":"Realizado en Js,React, Css y consumo de Api. Trabajo final de módulo Desarrollo Front End. Uso de Bootstrap, rutas protegidas, filtrado por precio y/o tipo de producto. Slice de imágenes del producto. Filtrado de productos similares al elegido y carrito de compras"
       },
       {
         "title":"API Rest E commerce",
-        "link":"https://ecommerce-api-q8r7.onrender.com/api/v1/docs/",
+        "link":"https://bit.ly/48Qo13S",
         "image": "API Rest e commerce.png",
         "description":"Realizado con Node js y Express Node. Trabajo final de módulo Back End. Se realizó paginación, envío de correos, middlewares de autenticación. Completado con el plus de documentación (SWAGGER)"
       },
       {
         "title":"Para Cuando Web",
-        "link":"https://www.paracuandoqueretaro.com/",
+        "link":"https://bit.ly/3S8Chh2",
         "image": "paracuando.jpg",
         "description":"Prototipo de Web de Eventos sociales. Realizado en equipos de trabajo, implementando tecnologías React y Typescript"
       },
       {
         "title":"Para Cuando Api",
-        "link":"https://paracuando-gen19-team-9.academlo.tech/api/v1/docs/",
+        "link":"https://bit.ly/4bi6Sll",
         "image": "paracuando_api.jpg",
         "description":"Api complementaria de web Para Cuando. trabajamos con Node.js, Sequelize, Express, PostgreSQL, Postman para consultas. Posee Loguin como usuario y/o administrador"
       },
       {
         "title":"Api y Web Centro Cultural",
-        "link":["https://github.com/codoacodo14/API_codoacodo14?search=1", "https://codoacodo-grupo14-centrocultural.netlify.app/"],
+        "link": "https://bit.ly/47RaDer",
         "image": "web python.jpg",
         "description":"Web Centro Cultural con cartelera de eventos, consulta de biblioteca, logueo de administrador.El front hecho con tecnología Js Vanilla, Css. El back con Python"
       },
       {
         "title":"Portfolio Profesional Fotografía",
-        "link":"https://agosfotografia.netlify.app/",
+        "link":"https://bit.ly/49aMJvt",
         "image": "fotografia.jpg",
         "description":"Sitio web de portafolio Profesional de fotógrafo creado en React/TypeScript y Tailwind CSS"
       },
       {
         "title":"Portfolio Profesional Concejal",
-        "link":"https://juandomingogallo.netlify.app/",
+        "link":"https://bit.ly/3OmUzKt",
         "image": "juando.jpg",
         "description":"Trabajo realizado en React y css. Página estilo portfolio para visualizar trabajo de gestión de un concejal"
       },
       {
         "title":"Informe sobre gestión Concejo Deliberante Concordia",
-        "link":["https://lookerstudio.google.com/s/tYYuPtrycMk", "https://docs.google.com/spreadsheets/d/18MAtxIwTZUzWhRz20tdX5iWP_BM2JKErEDOWitXrnPY/edit?usp=sharing"],
+        "link": "https://bit.ly/42iqSQL",
         "image": "concejales.jpg",
         "description":"Trabajo estadístico realizado para el Concejo Deliberante de la ciudad de Concordia sobre las resoluciones aprobadas en la última gestión. Se recopilaron datos públicos para generar la base de datos en Excel, allí mismo mediante tablas dinámicas y querys se generaron filtrado de datos y estadísticas y luego se migró esa BD a Looker Studio para la generación de los gráficos y el informe final "
       }

@@ -41,31 +41,20 @@ const Projects = () => {
      >
         <h3>{proyecto.title}</h3>
 
-        {/* Mostrar múltiples enlaces si existen */}
-        {Array.isArray(proyecto.link) ? (
-          <div className='link'>
-            {proyecto.link.map((link, linkIndex) => (
-              <React.Fragment key={linkIndex}>
-                <Link to={link} style={{ color: '#ff0000' }}>
-                  {link}
-                </Link>
-                {linkIndex < proyecto.link.length - 1 && ' / '}
-              </React.Fragment>
-            ))}
-          </div>
-        ) : (
-          <h3 className='link'>
-            <Link to={proyecto.link} style={{ color: '#ff0000' }}>
-              {proyecto.link}
-            </Link>
-          </h3>
-        )}
+        
+          
+        
 
         <div className="image-container">
           <img src={proyecto.image} alt={proyecto.title} style={{ width: '500px' }} />
           {hoveredIndex === index && (
             <div className="description-overlay">
-              <p>{proyecto.description}</p>
+              <p style={{marginTop:"5px"}}>{proyecto.description}</p>
+              <button className="ver-boton">
+        <Link to={proyecto.link} style={{ color: '#ff0000', fontSize:'12px', fontFamily:'"Soming Soon", cursive' }}>
+          Ver Página
+        </Link>
+      </button>
             </div>
           )}
         </div>
