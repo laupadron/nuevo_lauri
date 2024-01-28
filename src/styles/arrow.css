@@ -32,13 +32,15 @@
   .slick-prev {
     left: 10px;  /* Ajusta según sea necesario */
     right: auto; /* Reinicia la posición right a auto */
-    top:8%
+    top:6%;
+    font-size: 20px;
   }
 
   .slick-next {
-    right: 10px; /* Ajusta según sea necesario */
+    right: 30px; /* Ajusta según sea necesario */
     left: auto; /* Reinicia la posición left a auto */
-    top:8%;
+    top:6%;
+    font-size: 20px;
   }
 }
 

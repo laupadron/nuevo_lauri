@@ -87,6 +87,12 @@ border:none;
 
 
 @media (max-width: 768px){
+    .description-overlay {
+        top:78%
+    }
+    .description-overlay p{
+        padding: 20px 60px 0 60px;
+    }
     h3 .link{
         text-align: center;
     }
