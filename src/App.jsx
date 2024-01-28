@@ -8,11 +8,29 @@ import React, { useState } from 'react';
 
 
 function App() {
+  const [modoOscuro, setModoOscuro] = useState(false);
+
+  function toggleModoOscuro() {
+    setModoOscuro(!modoOscuro);
+  }
   
   return (
-    <HashRouter>
-      <div className="app-container" >
-       
+    <HashRouter  >
+      <div className={`app-container ${modoOscuro ? 'modo-oscuro' : ''}`} >
+      <button  className= 'btn-app' onClick={toggleModoOscuro}>
+          {modoOscuro ? (
+            <>
+              <i className="fas fa-sun" style={{ marginRight: '5px' }}></i>
+              
+            </>
+          ) : (
+            <>
+              <i className="fas fa-moon" style={{ marginRight: '5px' }}></i>
+             
+            </>
+          )}
+        </button>
+
         <Routes>
         <Route  path="/" element={<Home/>} />
         <Route path="/projects" element={<Projects/>} />

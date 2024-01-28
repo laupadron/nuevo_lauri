@@ -3,7 +3,7 @@
   /* Añade estas reglas a tu archivo de estilos CSS */
 .slick-prev,
 .slick-next {
-  background-color: #ffffff;
+  background-color: rgba(255, 0, 0, 0);
   color: #FF0303;
   font-size: 38px;
   width: 40px;
@@ -42,6 +42,14 @@
     top:6%;
     font-size: 20px;
   }
+}
+
+.slick-next::before{
+  display: none;
+}
+
+.slick-prev::before{
+  display: none;
 }
 
 

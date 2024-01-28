@@ -1,0 +1,26 @@
+
+
+  .modo-oscuro,
+.modo-oscuro .nav-container {
+  background-color: #C4C1A4;
+  color: #ffffff;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+ 
+.app-container .btn-app{
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    margin: 5px 0 0 1rem;
+    
+}
+
+.btn-app i{
+    font-size: 18px;
+    color: #FF0303;
+}
