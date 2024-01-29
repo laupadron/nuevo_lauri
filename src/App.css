@@ -5,7 +5,15 @@
   background-color: #C4C1A4;
   color: #ffffff;
 }
-
+.modo-oscuro .popup{
+  background-color: #C4C1A4;
+}
+.modo-oscuro h4{
+  color: black;
+}
+.modo-oscuro a{
+  color: black;
+}
 html,
 body {
   margin: 0;
