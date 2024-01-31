@@ -25,7 +25,7 @@ const Contact = () => {
             <div className='mail'>
                 <i className="fa-regular fa-envelope"></i>
                 <h2>laupadron1458@gmail.com</h2>
-                <a href="https://drive.google.com/file/d/1lhD4NBfOa4qIm9j1_-IqODoJxyyDCLyg/view?usp=sharing" target="_blank" download="CV LauPadron"><button><i className="fa-solid fa-circle-down"></i>Descarga mi CV</button></a>
+                <a href="https://drive.google.com/file/d/1KdrpdwVosN4DiJYbGP0Q7Qg1PREchreQ/view?usp=sharing" target="_blank" download="CV LauPadron"><button><i className="fa-solid fa-circle-down"></i>Descarga mi CV</button></a>
             </div>
         </div>
     );

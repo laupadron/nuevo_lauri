@@ -142,18 +142,75 @@
           font-size: 14px;
         }
       }
-
+/* 
       .custom-cursor {
+        position: fixed;
+        width: 18px;
+        height: 18px;
+        border: 3px solid #FF0303;
+        clip-path: polygon(50% 0%, 5% 100%, 150% 100%);
+        pointer-events: none;
+        animation: pulse 0.5s infinite alternate;
+        
+      } */
+
+      /* .custom-cursor {
         position: fixed;
         width: 8px;
         height: 8px;
-        border: 2px solid #FF0303;
-        border-radius: 50%;
-        /* background-color: transparent; */
+        border: 0px solid #FF0303;
         pointer-events: none;
         animation: pulse 0.5s infinite alternate;
-       
       }
+      .custom-cursor::before{
+    
+       
+        content: '';
+        position: absolute;
+        width: 10;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-bottom: 15px solid #FF0303; 
+    } */
+
+    
+    /* .custom-cursor {
+      position: fixed;
+      width: 8px;
+      height: 8px;
+      pointer-events: none;
+      animation: pulse 0.5s infinite alternate;
+      cursor: url('/public/cursor.png'), auto
+  }
+   */
+   /* .custom-cursor {
+    position: fixed;
+    width: 0;
+    height: 0;
+    content: '';
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #FF0303;
+    transform: rotate(72deg);
+    pointer-events: none;
+    animation: pulse 0.5s infinite alternate;
+    cursor: none; 
+} */
+
+.custom-cursor {
+  position: fixed;
+  width: 15px; /* Ajusta el tamaño según tus necesidades */
+  height: 15px; /* Ajusta el tamaño según tus necesidades */
+  background: url('../assets/cursor.png') no-repeat;
+  
+  background-size: cover;
+  pointer-events: none;
+  animation: pulse 0.5s infinite alternate;
+  cursor: none;
+}
+
+
       
       .custom-cursor.active {
         transform: scale(1.5);
