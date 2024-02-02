@@ -8,6 +8,7 @@
     margin-top: 1rem;
     gap: 1rem;
     margin-top: 0;
+    cursor: none;
 }
 .mail{
   display: flex;  
@@ -28,10 +29,12 @@
     gap: 3rem;
     justify-content:center;
     align-items: center;
+    cursor: none;
 }
 .icons i{
     color: #FF0303;
     font-size: 20px;
+    cursor: none;
 }
 /* .fa-brands.fa-whatsapp{
     color: #54E346;
@@ -79,6 +82,7 @@
     justify-content: center;
     background-color: #f7e1e1;
     font-family: 'Coming Soon', cursive;
+    cursor: none;
  }
  .mail button:hover{
     transform: scale(1.2);

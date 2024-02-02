@@ -13,13 +13,13 @@ const Contact = () => {
                     <i className="fa-brands fa-github"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/laura-padron-662223254/">
-                    <i class="fa-brands fa-linkedin"></i>
+                    <i className="fa-brands fa-linkedin"></i>
                 </a>
             </div>
                 <div className="contact">
-                <i class="fa-solid fa-left-long"></i>
+                <i className="fa-solid fa-left-long"></i>
                     <h2 >Contacto</h2>
-                    <i class="fa-solid fa-right-long"></i>
+                    <i className="fa-solid fa-right-long"></i>
                 </div>
           
             <div className='mail'>

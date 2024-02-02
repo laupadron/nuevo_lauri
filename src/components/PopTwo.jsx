@@ -25,11 +25,11 @@ const PopTwo = ({ onClose }) => {
             
             <div className="icons pop-icons" style={{marginTop:'0'}}>
               <div className="soft">
-                <i class="dancing fa-solid fa-cube efects"></i>
+                <i className="dancing fa-solid fa-cube efects"></i>
                 <h4>Flexibilidad y adaptación a cambios </h4>
-                <i class="dancing fa-solid fa-hands-asl-interpreting efects"></i> 
+                <i className="dancing fa-solid fa-hands-asl-interpreting efects"></i> 
                 <h4>Trabajo en equipo, gestión de tiempo y buena comunicación </h4>
-                <i class="dancing fa-solid fa-lightbulb"></i>
+                <i className="dancing fa-solid fa-lightbulb"></i>
                 <h4>Soy una buscadora innata de soluciones</h4>
               </div>
             </div>

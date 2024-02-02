@@ -45,22 +45,23 @@ const Skills = () => {
             <div>
                 <h2 style={{fontFamily:"'Cedarville Cursive', cursive", textAlign:'center', marginTop:'1rem'}}>{language === 'es' ? 'Sobre mí' : 'About me'}</h2>
                 <h3 style={{fontFamily:"'Coming Soon', cursive", textAlign:'center', marginTop:'0'}}>Hola, que gusto que nos conozcamos</h3>
-                <p style={{fontFamily:"'Coming Soon', cursive", textAlign:'center', marginTop:'0'}}>Si estás viendo mi portafolio es porque seguro me necesitas y yo a ustedes. <br />Soy Desarrolladora Full Stack y tengo muchas horas de estudio invertidas en el mundo de la programación y años de experiencia en diversos ambientes laborales. Mi capacidad de adaptación es infinita, lo que me permitió  ganar experiencia en rubros tan diversos como enriquecedores:  atención al cliente, redacción, banca financiera, eventos, ventas, hasta finalmente dar con mi nueva pasión: La programación. <br /> ¿Qué es lo qué más me motiva en este nuevo desafio?: la inagotable fuente de conocimiento que me provee, no existe límite para el aprendizaje, siempre hay aguas nuevas para navegar... la curiosidad de la mente y la motivación de aprender nos mantienen activos y despiertos. ¿Qué tengo para ofrecerles? lo más importante : mi valioso tiempo y mis ganas de aplicar mis conocimientos o capacitarme en lo que sea necesario, para que los objetivos fijados sean cumplidos. ¡Ahora solo queda que me des la oportunidad de contarte todo en vivo!, así que te espero tu contacto para concretar esa entrevista. </p>
+                <p style={{fontFamily:"'Coming Soon', cursive", textAlign:'center', marginTop:'0'}}>Si estás viendo mi portafolio es porque seguro me necesitas y yo a ustedes. <br />Soy Desarrolladora Full Stack y tengo muchas horas de estudio invertidas en el mundo de la programación y años de experiencia en diversos ambientes laborales. Mi capacidad de adaptación es infinita, lo que me permitió  ganar experiencia en rubros tan diversos como enriquecedores:  atención al cliente, redacción, banca financiera, eventos, ventas, hasta finalmente dar con mi nueva pasión: La programación. <br /> ¿Qué es lo qué más me motiva en este nuevo desafio?: la inagotable fuente de conocimiento que me provee, no existe límite para el aprendizaje, siempre hay aguas nuevas para navegar... la curiosidad de la mente y la motivación de aprender nos mantienen activos y despiertos. ¿Qué tengo para ofrecerles? lo más importante : mi invaluable tiempo y mis ganas de aplicar mis conocimientos o capacitarme en lo que sea necesario, para que los objetivos fijados sean cumplidos. ¡Ahora solo queda que me des la oportunidad de contarte todo en vivo!, así que te espero tu contacto para concretar esa entrevista. </p>
             </div>
             <div className="skills">
             
             <div className="buttons">
-                <button onClick={togglePopupone}>Habilidades Técnicas <i class="fa-solid fa-plus"></i></button>
-                <button onClick={togglePopuptwo}>Habilidades Blandas <i class="fa-solid fa-plus"></i></button>
+                <button onClick={togglePopupone}>Habilidades Técnicas <i className="fa-solid fa-plus"></i></button>
+                <button onClick={togglePopuptwo}>Habilidades Blandas <i className="fa-solid fa-plus"></i></button>
             </div>
+            <div className="div" style={{marginBottom:'3rem'}}>
             <Nav/>
-          
             </div>
-            
+            </div>
+            <Footer/>
             {/* Renderizar el componente emergente si es visible */}
             {popuponeVisible && <PopOne onClose={togglePopupone} />}
             {popuptwoVisible && <PopTwo onClose={togglePopuptwo} />}
-            <Footer/>
+            
         </>
     );
 };
